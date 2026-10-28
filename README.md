@@ -6,20 +6,34 @@
 
 **它是什么：** 每个技能是一套写在 `SKILL.md` 中的工作流程，以及必要的参考资料、模板或脚本。支持 Agent Skills 的助手读取这些文件后，结合你的素材和当前可用工具完成任务。安装技能本身不会自动提供生图模型、视频渲染服务或 API 额度。
 
-## 你可以得到什么
+## 先选一个最适合你目标的技能
 
-| 你的目标 | 使用技能 | 可以得到的成果 |
-| --- | --- | --- |
-| 先规划一条账号或网站介绍动画 | [profile-promo](skills/profile-promo/SKILL.md) | 结合主页、角色、平台和目标动作的制作话术、分镜或视频方案；环境具备时可继续制作成片 |
-| 用体素吉祥物做账号或产品宣传片 | [promo-video-director](skills/promo-video-director/SKILL.md) | 默认 19 秒横版宣传片方案；具备渲染条件时可交付 MP4、关键帧预览和可复用配置 |
-| 用主页截图制作 3D 风格横版介绍片 | [x-profile-3d-promo](skills/x-profile-3d-promo/SKILL.md) | 约 30 秒横屏介绍片的模板和制作流程，包含主页、头像、代表内容和片尾 |
-| 为 X 主页制作竖屏短视频 | [x-profile-3d-video](skills/x-profile-3d-video/SKILL.md) | 约 30 秒竖屏介绍片的模板和制作流程，包含主页截图、置顶内容、拼贴墙和片尾 |
-| 从一张参考图建立自己的 IP | [personal-ip-kit](skills/personal-ip-kit/SKILL.md) | 角色档案、角色设定与可按需扩展的头像、表情、Banner、文章插图及视频素材；可整理为素材包 |
-| 把照片或头像做成立体风格 | [avatar-depth](skills/avatar-depth/SKILL.md) | 可按指定尺寸导出的立体风格头像图片，并支持局部修改和配饰 |
-| 把人物、宠物或已有形象做成 Q 版 | [chibi-character-card](skills/chibi-character-card/SKILL.md) | 保留主体辨识特征的 Q 版角色设定卡，可包含三视图、表情、细节和配色 |
-| 沿用 Soren 形象制作内容 | [soren-ip-illustrations](skills/soren-ip-illustrations/SKILL.md) | Soren 风格的头像、表情、封面或教程插图；需提供授权参考图 |
+不知道从哪里开始？先看自己这次想做什么，只安装需要的技能即可：
 
-实际成果取决于你提供的资料、任务要求，以及助手能调用的生图、浏览器和渲染工具。图片是具有立体质感的二维素材，不等同于可旋转的三维模型。
+| 我想做什么 | 首选技能 | 先准备什么 | 可能得到什么 |
+| --- | --- | --- | --- |
+| 建立以后能反复使用的个人 IP | [personal-ip-kit](skills/personal-ip-kit/SKILL.md) | 角色、人物或宠物的参考图；想做的素材类型 | 角色档案和设定图，以及按需制作的头像、表情、封面、文章插图或素材包 |
+| 只想做一张立体风格头像 | [avatar-depth](skills/avatar-depth/SKILL.md) | 一张照片或现有头像；期望风格和尺寸 | 立体风格头像图片，可继续调整配饰、尺寸和局部细节 |
+| 把人物、宠物或已有形象做成 Q 版角色卡 | [chibi-character-card](skills/chibi-character-card/SKILL.md) | 一张主体清晰的参考图 | Q 版设定卡，可包含正侧背视图、表情、细节和配色 |
+| 用 Soren 的固定形象做图 | [soren-ip-illustrations](skills/soren-ip-illustrations/SKILL.md) | 已授权的 Soren 原始参考图和角色设定板；本次画面主题 | 沿用 Soren 形象的头像、表情、封面或教程插图 |
+| 为账号或网站设计宣传动画，风格和剧情由自己决定 | [profile-promo](skills/profile-promo/SKILL.md) | 主页链接、截图或文字资料；角色或头像；目标动作和规格 | 制作话术、分镜或视频方案；具备制作条件时可继续制作视频 |
+| 想用现有体素吉祥物模板做宣传片 | [promo-video-director](skills/promo-video-director/SKILL.md) | X、小红书、公众号或网站资料；文案与角色偏好 | 默认 19 秒横版方案；具备渲染条件时可交付 MP4、预览图和配置 |
+| 想做“主页斜放、头像弹出、作品立起”的横版介绍片 | [x-profile-3d-promo](skills/x-profile-3d-promo/SKILL.md) | 主页截图、头像、代表内容和片尾文案 | 约 30 秒横屏 3D 风格介绍片的模板与制作流程 |
+| 想用同类风格介绍 X 主页，发布竖版视频 | [x-profile-3d-video](skills/x-profile-3d-video/SKILL.md) | X 主页截图、头像、置顶帖或代表内容、片尾文案 | 约 30 秒竖屏 X 介绍片的模板与制作流程 |
+
+表里的图片和视频是技能**希望帮助完成的成果**，不是安装后自动生成的文件。实际交付取决于素材以及助手可用的生图、浏览器和渲染工具。立体风格图片仍是二维图片，不等同于可旋转的三维模型。
+
+### 容易混淆的技能，怎么选？
+
+**头像、角色卡还是整套 IP？** 只想先换头像，选 `avatar-depth`；想要 Q 版三视图和表情的角色卡，选 `chibi-character-card`；想持续维护一个角色，并用它制作多种内容，选 `personal-ip-kit`。整套 IP 可以包含头像和角色卡，因此这些成果会有交集，但不必为了做一张头像安装所有技能。
+
+**通用 IP 还是 Soren？** `personal-ip-kit` 面向不同用户和不同角色；`soren-ip-illustrations` 面向已授权的 Soren 专属角色，不是创建任意角色的通用入口。公开仓库不附带 Soren 参考图。
+
+**自由策划还是套用模板？** 想自己决定角色、故事、时长和平台，先选 `profile-promo`；想基于现有体素吉祥物模板制作，选 `promo-video-director`。前者侧重通用策划和制作流程，后者提供更具体的默认模板；两者都可能参与视频制作，不需要每次同时安装。
+
+**体素模板还是 3D 主页片？** `promo-video-director` 默认是体素吉祥物带动主页宣传，19 秒横版；两个 X 视频技能偏向主页斜放、头像弹出、作品卡片立起的 30 秒风格。想用后者的横版选 `x-profile-3d-promo`，想为 X 做竖版选 `x-profile-3d-video`。这两套旧视频实现带有固定账号示例和沙盒环境假设，需要适配，尚未在本仓库完成端到端渲染验证。
+
+仍然不确定时，可以把目标、参考图或主页链接告诉助手，请它对照本仓库的技能说明推荐一个；如果推荐的技能尚未安装，再按下面的方法安装。
 
 ## 如何使用
 
@@ -69,7 +83,15 @@ fi
 
 > 使用 $x-profile-3d-video，根据我的 X 主页截图制作竖屏个人介绍短片，展示头像、置顶帖和账号名称。
 
-需要横版主页介绍片时可指定 `$x-profile-3d-promo`；需要 Soren 配图时指定 `$soren-ip-illustrations`，并提供已授权的原始参考图和角色设定板。Soren 的参考图片没有放在公开仓库里。
+**制作横版主页介绍片**：提供主页截图、头像和代表作品后，可以说：
+
+> 使用 $x-profile-3d-promo，按照主页斜放、头像弹出和作品卡片立起的风格，为我的账号制作横版介绍片。请先检查模板里是否还有其他账号的示例资料。
+
+**沿用已有 Soren 形象**：提供已授权的原始参考图和角色设定板后，可以说：
+
+> 使用 $soren-ip-illustrations，沿用我提供的 Soren 参考图，制作一张横版教程插图：角色正在整理零散提示词，画面留出标题位置。
+
+Soren 的参考图片没有放在公开仓库里。
 
 ## 一起使用：从角色到宣传片
 
