@@ -1,0 +1,4 @@
+interface:
+  display_name: "主页宣传动画"
+  short_description: "用可自定义吉祥物介绍不同渠道主页，自定时长、画幅、交互与行动号召"
+  default_prompt: "使用 $profile-promo 为我的主页制作宣传动画，先核对基础素材，再按我指定的渠道、时长、吉祥物和目标动作完成。"

@@ -1,0 +1,59 @@
+{
+  "delivery": "video",
+  "duration_seconds": null,
+  "fps": 30,
+  "width": null,
+  "height": null,
+  "platform": {
+    "name": null,
+    "profile_url": null,
+    "reference_files": [],
+    "language": null,
+    "viewpoint": null
+  },
+  "profile": {
+    "display_name": null,
+    "account_id": null,
+    "bio_original": null,
+    "value_proposition": null,
+    "metrics": {},
+    "sources": []
+  },
+  "mascot": {
+    "enabled": true,
+    "source_files": [],
+    "description": null,
+    "representation": null,
+    "identity_invariants": [],
+    "newly_designed_details": [],
+    "entry": null,
+    "action_vocabulary": []
+  },
+  "cta": {
+    "action": null,
+    "label": null,
+    "destination": null,
+    "simulate_metrics_change": false
+  },
+  "look": {
+    "setting": null,
+    "palette": [],
+    "camera_energy": null,
+    "continuity": "one-take",
+    "motion_blur": "auto"
+  },
+  "audio": {
+    "mode": "sfx",
+    "voiceover": null,
+    "music_source": null,
+    "peak_dbfs": null
+  },
+  "end_card": {
+    "copy": null,
+    "show_account": true,
+    "qr_source_or_url": null
+  },
+  "beats": [],
+  "assumptions": [],
+  "missing_required_inputs": []
+}

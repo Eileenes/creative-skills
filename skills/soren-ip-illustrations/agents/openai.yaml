@@ -1,0 +1,4 @@
+interface:
+  display_name: "Soren IP 配图"
+  short_description: "使用 Soren 的固定角色参考与视觉规范，制作头像、表情和教程插图"
+  default_prompt: "使用 $soren-ip-illustrations，画一张 Soren 把零散提示词整理成清晰步骤的横版教程配图。"

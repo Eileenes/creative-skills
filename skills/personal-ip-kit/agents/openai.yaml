@@ -1,0 +1,4 @@
+interface:
+  display_name: "角色 IP 创作与复用"
+  short_description: "上传参考图建立独立角色，持续制作统一的封面、文章插图与视频素材"
+  default_prompt: "使用 $personal-ip-kit，根据我的参考图建立角色档案，或沿用我已有的 IP 为本次内容制作配图。"

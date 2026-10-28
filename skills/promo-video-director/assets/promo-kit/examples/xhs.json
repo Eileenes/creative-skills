@@ -1,0 +1,27 @@
+{
+  "platform": "xhs",
+  "name": "演示品牌",
+  "verified": false,
+  "bio": [
+    "这是虚构的演示资料，请替换为真实简介"
+  ],
+  "avatar": "demo-avatar.svg",
+  "banner": "",
+  "typed": "demo",
+  "mascot": {
+    "preset": "whale",
+    "color": "#FF2442",
+    "belly": "#ffe3e8"
+  },
+  "end": {
+    "title": "演示品牌",
+    "tagline": "把你的品牌故事带到这里"
+  },
+  "trends": [],
+  "whoToFollow": [],
+  "id": "demo_id",
+  "ip": "",
+  "following": "—",
+  "followers": "—",
+  "likes": "—"
+}

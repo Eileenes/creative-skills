@@ -1,0 +1,4 @@
+interface:
+  display_name: "头像立体化"
+  short_description: "制作立体头像，支持自定义尺寸、肩部配饰、局部修改和连续迭代"
+  default_prompt: "用 $avatar-depth 将我上传的图片制作成立体头像，保留角色特征，按我指定的尺寸导出。"

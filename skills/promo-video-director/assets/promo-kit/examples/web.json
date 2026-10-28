@@ -1,0 +1,29 @@
+{
+  "platform": "web",
+  "name": "演示品牌",
+  "verified": false,
+  "bio": [
+    "这是虚构的演示资料，请替换为真实简介"
+  ],
+  "avatar": "demo-avatar.svg",
+  "banner": "",
+  "typed": "demo",
+  "mascot": {
+    "preset": "whale",
+    "color": "#4D6BFE",
+    "belly": "#dfe6ff"
+  },
+  "end": {
+    "title": "演示品牌",
+    "tagline": "把你的品牌故事带到这里"
+  },
+  "trends": [],
+  "whoToFollow": [],
+  "url": "https://example.com",
+  "ui": {
+    "follow": [
+      "立即体验",
+      "✓ 立即体验"
+    ]
+  }
+}
