@@ -1,4 +1,4 @@
-# Creative Skills · 个人 IP 与宣传视频技能合集
+# Creative Skills · 头像、角色配图与宣传视频
 
 把参考图、个人主页和品牌资料，变成角色素材、头像、插画与宣传短片。
 
@@ -8,12 +8,23 @@
 
 ## 快速选择
 
+本仓库是 `avatar-depth`、`chibi-character-card`、`personal-ip-kit` 的统一维护入口，三个技能仍可独立安装和调用。Soren 专属配图也在这里维护。
+
+[图片创作流程与安装指南](docs/image-workflows.md) · [旧仓库迁移说明](docs/repository-migration.md)
+
+### 头像、角色与图片
+
 | 你想做什么 | 选择哪个技能 | 主要交付 |
 | --- | --- | --- |
 | 建立一个以后可以持续复用的个人、宠物或品牌角色 | [personal-ip-kit](skills/personal-ip-kit/SKILL.md) | 角色档案、设定图、头像、表情、封面及后续内容素材 |
 | 把照片或现有头像做成立体、软陶或卡通头像 | [avatar-depth](skills/avatar-depth/SKILL.md) | 指定尺寸的头像图片 |
 | 把人物、宠物或 Logo 做成 Q 版角色设定卡 | [chibi-character-card](skills/chibi-character-card/SKILL.md) | 三视图、表情、细节和配色组成的角色卡 |
 | 沿用 Soren 的固定形象制作教程配图 | [soren-ip-illustrations](skills/soren-ip-illustrations/SKILL.md) | 头像、表情、封面和 AI 教程插画 |
+
+### 宣传视频
+
+| 你想做什么 | 选择哪个技能 | 主要交付 |
+| --- | --- | --- |
 | 自由设计账号或网站宣传片的角色、剧情、时长和画幅 | [profile-promo](skills/profile-promo/SKILL.md) | 制作话术、分镜；条件具备时继续制作视频 |
 | 套用“方块鲸鱼带你浏览主页”的模板 | [promo-video-director](skills/promo-video-director/SKILL.md) | 默认 19 秒、720p、30fps 横屏视频、预览与配置 |
 | 做“主页斜放、头像跳出、帖子立起”的介绍片 | [x-profile-3d-promo](skills/x-profile-3d-promo/SKILL.md) | 30 秒、1080p、30fps 横屏模板与制作流程 |
@@ -36,16 +47,16 @@ cd creative-skills
 
 不安装也可以直接告诉助手：
 
-> 请读取这个仓库的 skills/profile-promo/SKILL.md，按里面的流程为我的主页设计一条宣传片。先整理素材和分镜。
+> 请读取这个仓库的 skills/avatar-depth/SKILL.md，按里面的流程把我上传的照片做成软陶头像。
 
 希望长期使用时，把需要的**整个技能目录**复制到助手的技能目录。不要只复制 `SKILL.md`，它可能引用同目录的脚本、模板或参考文件。以下以 Codex 的用户技能目录为例，从仓库根目录执行：
 
 ```bash
 mkdir -p "$HOME/.codex/skills"
-if [ -e "$HOME/.codex/skills/profile-promo" ]; then
-  echo "profile-promo 已存在，请先比较或备份，不直接覆盖"
+if [ -e "$HOME/.codex/skills/avatar-depth" ]; then
+  echo "avatar-depth 已存在，请先比较或备份，不直接覆盖"
 else
-  cp -R skills/profile-promo "$HOME/.codex/skills/"
+  cp -R skills/avatar-depth "$HOME/.codex/skills/"
 fi
 ```
 
@@ -211,6 +222,7 @@ python3 skills/promo-video-director/scripts/prepare_project.py \
 creative-skills/
 ├── README.md                 # 功能目录、安装与使用指南
 ├── SOURCES.md                # 来源和导入版本
+├── docs/                     # 图片创作流程与旧仓库迁移说明
 ├── skills/                   # 8 个独立技能
 │   └── <skill>/
 │       ├── SKILL.md          # 助手入口

@@ -29,13 +29,9 @@ flowchart LR
 
 ## 安装
 
-项目级安装，在你希望使用技能的项目根目录执行（目标目录应不存在）：
+从 [creative-skills](https://github.com/Eileenes/creative-skills) 下载或克隆合集，将整个 `skills/personal-ip-kit` 目录复制到项目的 `.agents/skills/personal-ip-kit/`，或宿主支持的用户级技能目录。目标已存在时先备份并比较。
 
-```bash
-git clone https://github.com/Eileenes/personal-ip-kit.git .agents/skills/personal-ip-kit
-```
-
-也可将仓库放到你的工具支持的用户级 skills 目录。仓库根目录的 `SKILL.md` 是入口；Codex 界面元数据位于 `agents/openai.yaml`。如果新安装的技能尚未出现在会话中，重新打开会话或直接提供 `SKILL.md` 路径。
+技能目录根部的 `SKILL.md` 是入口，`agents/openai.yaml` 是界面元数据；不要只复制入口文件，也不要把合集根目录当成此技能目录。完整步骤见 [图片技能安装指南](https://github.com/Eileenes/creative-skills/blob/main/docs/image-workflows.md)。
 
 技能需要支持图片参考的生图工具，优先使用运行环境内置能力。安装 skill 不会安装生图模型，也不会自动提供视频生成、三维建模服务或 API 额度。只读取流程不需要 Python；运行辅助脚本需要 Python 3.10+ 与 Pillow：
 

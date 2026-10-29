@@ -8,9 +8,9 @@
 
 在支持技能安装的助手中发送：
 
-> 请从 https://github.com/Eileenes/avatar-depth 安装 avatar-depth 技能，SKILL.md 在仓库根目录。
+> 请从 https://github.com/Eileenes/creative-skills 安装 avatar-depth 技能，入口在 skills/avatar-depth/SKILL.md；请安装整个 skills/avatar-depth 目录。
 
-也可以下载 [Release 技能包](https://github.com/Eileenes/avatar-depth/releases/latest)，将其中的 `avatar-depth` 文件夹放到宿主的技能目录。在 Codex 中可以使用 `~/.codex/skills/avatar-depth/`，已有同名技能时先备份。不要把用户照片放到技能目录。
+也可以下载 [合集 ZIP](https://github.com/Eileenes/creative-skills/archive/refs/heads/main.zip)，将其中的 `skills/avatar-depth` 整个文件夹放到宿主的技能目录。在 Codex 中可以使用 `~/.codex/skills/avatar-depth/`，已有同名技能时先备份。不要把用户照片放到技能目录。
 
 精确尺寸导出脚本需要 Python 3.10+ 与 Pillow。可在独立环境安装：
 

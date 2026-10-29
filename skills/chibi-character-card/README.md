@@ -28,15 +28,9 @@
 
 ## 安装到 Codex
 
-把本仓库放到技能目录，并保持文件夹名为 `chibi-character-card`：
+从 [creative-skills](https://github.com/Eileenes/creative-skills) 下载或克隆合集，将其中的整个 `skills/chibi-character-card` 文件夹复制到 `~/.codex/skills/chibi-character-card/`。不要把合集根目录当成此技能目录；已有同名目录时先备份并比较。
 
-```sh
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/Eileenes/chibi-character-card.git \
-  "${CODEX_HOME:-$HOME/.codex}/skills/chibi-character-card"
-```
-
-也可以下载仓库ZIP，解压后将包含 `SKILL.md` 的文件夹命名为 `chibi-character-card`，放入同一技能目录。私有仓库的访问需要对应账号权限。
+完整步骤见 [图片技能安装指南](https://github.com/Eileenes/creative-skills/blob/main/docs/image-workflows.md)。
 
 ## 调用示例
 
