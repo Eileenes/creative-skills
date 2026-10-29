@@ -9,7 +9,7 @@
 | `skills/chibi-character-card` | [Eileenes/chibi-character-card](https://github.com/Eileenes/chibi-character-card) | `8bf3b1437cb7d881acc964a42af0d3edc305e51a` |
 | `skills/promo-video-director` | 用户提供的 `promo-video-skills.zip` | 整合版原样导入 |
 | `skills/x-profile-3d-promo` | 用户提供的同名本地目录 | 横版，保留原始实现 |
-| `skills/x-profile-3d-video` | 用户提供的同名本地目录与 ZIP | 竖版；SKILL.md 与 ZIP 中对应文件一致 |
+| `skills/x-profile-3d-video` | 用户提供的同名本地目录与 ZIP | 原说明定位为竖版，但实际 Root.tsx 为 1920×1080 横版；保留原始实现，差异见 README |
 | `skills/profile-promo` | 同一素材文件夹下的“个人媒体宣传视频prompt” | 原技能名为 `profile-promo` |
 | `skills/soren-ip-illustrations` | 本机项目技能与品牌手册 | 调整为使用用户提供的参考图，复制品牌手册；不公开原始图片 |
 | `sources/original-zips/` | 用户提供的十份 ZIP | 保留来源；七个旧模块已整合到总技能；弹出展示为独立历史模板 |
